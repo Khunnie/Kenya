@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link rel="stylesheet" href="css/core.css" />
+<link rel="stylesheet" href="css/index.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/demo.min.css" />
+<link rel="stylesheet" href="css/typicons.min.css" />
+<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+<link rel="stylesheet" href="css/idangerous.swiper.css">
+<link rel="stylesheet" href="css/idangerous.swiper.3dflow.css">
+<link rel="stylesheet" href="css/b_style.css" />
+<link rel="stylesheet" href="css/validationEngine.jquery.css" />
+<link rel="icon" href="images/icon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="css/home.css"  />
+<link rel="stylesheet" href="css/self.css" />
+<script src="js/jquery-1.8.0.min.js" ></script>
+<script src="js/idangerous.swiper.js"></script>
+<script src="js/idangerous.swiper.3dflow.js"></script>
+<!--<script src="js/ZoomPic.js" ></script>-->
+<script src="js/jquery.toTop.min.js" ></script>
+<script src="js/fun.js" ></script>
+<script src="My97DatePicker/WdatePicker.js"></script>
+<script src="js/jquery.validationEngine-zh_CN.js" ></script>
+<script src="js/jquery.validationEngine.js"></script>
+<script src="js/materialMenu.min.js" ></script>
+<script type="text/javascript" src="js/share.js" ></script>
+<script type="text/javascript" src="js/ImageSwiper.js" ></script>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+<!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+<!--header-->
+	<div class="headerWrap_wc">
+	  <div class="header w1200 clearfix">
+	    <div class="clearfix log-ico">
+	      <div class="headL fl"><a href="index.html" class="logo"><img src="images/logo.png" alt="" /></a></div>
+		   		<div class="headBtns fr clearfix">
+			        <div class="unlogin fr"> 
+			        	<a class="btn btn-gborder fr ml10" href="#">注册</a> <a class="btn fr dl" href="#">登录</a> 
+			        </div>
+			        <div class="islogin ml10 fr"  style="display: none;"> 你好，
+			        	<a class="topuser" href="#">172910720@qq.com</a>，<a class="topexist" href="javascript:;">退出</a> 
+			        </div>
+			         <div class="tel fr banner-t">
+			         		<i></i>
+			         		<p>1234-0123456789</p>
+			         </div>
+			          <div class="tel fr now">BOOK NOW PAYLATER AT ARRIVAL</div>
+		      </div>
+	    </div>
+  </div>
+	  <div class="navtel w1200 clearfix">
+	    	<div class="logosmall fl"> <img class="fl" src="images/logo.png" alt="" /></div>
+	      <div id="wrapper" class="wrapper"></div>
+	      <div id="mm-menu-toggle" class="mm-menu-toggle"></div>
+	   </div>
+    <!--侧滑--> 
+    <!--left  icon-->
+    <nav id="mm-menu" class="mm-menu">
+      <div class="chlogo"><img src="images/logo.png" alt="" /></div>
+	      <ul class="form">
+	        <li class="cur"><a href="index.html">首页</a></li>
+	        <li><a href="#">首页</a></li>
+	        <li><a href="#">机票</a></li>
+	        <li><a href="#">积分商城</a></li>
+	      </ul>
+	      <div class="unlogin" style="padding: 15px; position: fixed;bottom:20px;"> 
+	      	<a class="btn btn-gborder" href="#">登录</a>
+	      	<a class="btn btn-gborder ml10" href="#">注册</a>
+	      </div>
+	      <div class="islogin" style="display: none;padding: 15px; position: fixed;bottom:20px;">
+	      	 你好，
+	      	 <a class="topuser" href="#">乘风万里</a>，
+	      	 <a class="topexist" href="javascript:;">退出</a> 
+	      </div>
+    </nav>
+    <script>var menu = new Menu;</script> 
+
+</div>
+
+<!--banner-->
+<section class="bannerWrap_wc clearfix">
+  <div class="main_visual banner">
+    <div class="swiper-container">
+      <div class="swiper-wrapper indexbanner">
+        <div class="swiper-slide"><span style="background-image: url(images/banner1.png);"><a href="#" target="_blank"></a></span></div>
+      </div>
+     
+    </div>
+    <div class="banner-z">
+    	<div class="w1200 word">用不同视野看世界</div>
+    </div>
+    
+    <div class="searchbar">
+      <div class="w1200">
+        <div class="search-wabg">
+        	<ul class="search-nav">
+        		<li class="search-show">
+        			<i class="search-ico1"></i>
+        			<span>酒店</span>
+        		</li>
+        		<li>
+        			<i class="search-ico2"></i>
+        			<span>机票</span>
+        		</li>
+        		<li>
+        			<i class="search-ico3"></i>
+        			<span>积分商城</span>
+        		</li>
+        	</ul>
+          <div class="search-wbg clearfix">
+            <div>
+            	<label>1</label>
+            	<input type="text" placeholder="搜索地区酒店"  class="search-text"/>
+            </div>
+            <div class="btn-shop">
+            	<label>2</label>
+            	<input type="text"  placeholder="入住日期"  class="search-join"/>
+            	<input type="text"  placeholder="退房日期"  class="search-quit"/>
+            </div>
+             <div>
+            	<label>3</label>
+            	<input type="number" min="1" placeholder="房间数量"  class="search-num"/>
+            </div>
+            <div class="btn-search-wrap fr"><a class="btn-orange-fill" href="javascript:;">搜索</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-seach" onclick="showorder(1)">
+    	<input type="button" name="" class="btn-button" />
+    	<input type="search" name="" placeholder="酒店名称/关键字" class="btn-search" />
+    </div>
+  </div>
+</section>
+
+
+<!--天天特价-->
+<section class="productWrap">
+  <div class="indextitle">天天特价<span>先定先得</span></div>
+  <div class="productblock w1200">
+    <ul class="clearfix">
+      <li class="productbig">
+        <div class="img-block"><img src="images/p1.jpg" alt="" /></div>
+      </li>
+      <li>
+        <div class="img-block"><img src="images/p2.jpg" alt="" />
+        	<div class="percent">
+        		<strong>25%</strong>
+        		<em>OFF</em>
+        	</div>
+          <div class="price fl">￥<em>1600</em>起</div>
+        </div>
+        <div class="param-block clearfix">
+          <div class="tit-txt fl"><a href="#">费尔蒙特山肯尼亚野生动物园俱乐部酒店(Fairmont Mount Kenya..</a></div>
+          <div class="view fr"><a class="btn btn-gborder" href="#">MORE</a></div>
+        </div>
+      </li>
+      <li>
+        <div class="img-block"><img src="images/p3.jpg" alt="" />
+        	<div class="percent">
+        		<strong>25%</strong>
+        		<em>OFF</em>
+        	</div>
+          <div class="price fl">￥<em>1600</em>起</div>
+        </div>
+        <div class="param-block clearfix">
+          <div class="tit-txt fl"><a href="#">乡村酒店(Le Rustique)</a></div>
+          <div class="view fr"><a class="btn btn-gborder" href="#">MORE</a></div>
+        </div>
+      </li>
+      <li>
+        <div class="img-block"><img src="images/p4.jpg" alt="" />
+        	<div class="percent">
+        		<strong>25%</strong>
+        		<em>OFF</em>
+        	</div>
+          <div class="price fl">￥<em>1600</em>起</div>
+        </div>
+        <div class="param-block clearfix">
+          <div class="tit-txt fl"><a href="#">Sweetwaters Serena 营地 (Sweetwaters Serena Camp)</a></div>
+          <div class="view fr"><a class="btn btn-gborder" href="#">MORE</a></div>
+        </div>
+      </li>
+      <li>
+        <div class="img-block"><img src="images/p5.jpg" alt="" />
+        	<div class="percent">
+        		<strong>25%</strong>
+        		<em>OFF</em>
+        	</div>
+        </div>
+        <div class="param-block clearfix">
+          <div class="tit-txt fl"><a href="#">comfort Gardens Sweetwaters Nanyuki(comfort Gardens</a></div>
+          <div class="view fr"><a class="btn btn-gborder" href="#">MORE</a></div>
+        </div>
+      </li>
+    </ul>
+
+	</div>
+	<div class="btn-more"><a class="btn btn-gborder" href="#">MORE</a></div>
+</section>
+<section class="topWrap">
+	<div class="indextitle">热门城市<span>TOP8</span></div>
+  <div class="quote w1200 clearfix"><i class="fa fl"></i>
+    <!--<div class="say fl">111</div>-->
+  </div>
+  <div class="serviceBlock templatemorow w1200 clearfix">
+    <div class="hex">
+    		<img src="images/1.jpg" alt="" />
+        <div class="overlay"> 
+        	<a href="javascript:;" class="txt">内罗毕</a>  
+        	<a href="javascript:;" class="txt">NAIROBI</a> 
+        </div>
+    </div>
+    <div class="hex">
+    	  <img src="images/2.jpg" alt="" />
+        <div class="overlay"> 
+        	<a href="javascript:;" class="txt">蒙巴萨</a>
+        	<a href="javascript:;" class="txt">MOMBASA</a>
+        </div>
+    </div>
+    <div class="hex">
+    		<img src="images/3.jpg" alt="" />
+        <div class="overlay"> 
+        	<a href="javascript:;" class="txt">马林迪</a>
+        	<a href="javascript:;" class="txt">MALINDI</a>
+        </div>
+    </div>
+    <div class="hex" >
+    		<img src="images/4.jpg" alt="" />
+        <div class="overlay"> 
+        	<a href="javascript:;" class="txt">瓦塔穆</a>
+        	<a href="javascript:;" class="txt">WATAMU</a> 
+        </div>
+    </div>
+    <div class="hex" >
+    		<img src="images/5.jpg" alt="" />
+        <div class="overlay">
+        	<a href="javascript:;" class="txt">拉穆</a>
+        	<a href="javascript:;" class="txt">LAMU</a> 
+        </div>
+    </div>
+    <div class="hex" >
+    	<img src="images/6.jpg" alt="" />
+        <div class="overlay"> 
+        	<a href="javascript:;" class="txt">班布里</a>
+        	<a href="javascript:;" class="txt">BANBURY</a> 
+        </div>
+    </div>
+    <div class="hex">
+    	<img src="images/7.jpg" alt="" />
+        <div class="overlay"> 
+        	<a href="javascript:;" class="txt">洛尔戈里恩</a>
+        	<a href="javascript:;" class="txt">LORGORYAN</a>
+        </div>
+    </div>
+    <div class="hex">
+    	<img src="images/8.jpg" alt="" />
+    	 <div class="overlay"> 
+        	<a href="javascript:;" class="txt">内罗毕</a>  
+        	<a href="javascript:;" class="txt">NAIROBI</a> 
+        </div>
+    </div>
+  </div>
+ 
+</section>
+<section class="reservationWrap tc">
+  <div class="w1200">
+  	<div class="want">
+  		<div class="booking">
+  			 <div>
+  			 	  <span class="ten">10%</span>
+  			 	  <span class="count">DISCOUNT</span>
+  			 </div>
+  			 <div>
+  			 	  <p class="your">ON YOUR FIRST</p>
+  			 	  <strong>BOOKING</strong>
+  			 </div>
+  		</div>
+  		<div class="want-content">
+  			<p class="remarks">want to know more about our deals and offers? Subscribe now to our Newsletter to get what's hot on Jumia Travel!</p>
+  			<div class="btn-eamil">
+  				<input type="email" placeholder="Enter your email" class="Enter-email" />
+  				<input type="button" value="Subscribe" class="Subscribe"/>
+  			</div>
+  		</div>
+  	</div>
+    <ul class="list-family">
+    	<li class="last-nth">
+    		<div class="one">01</div>
+    		<div class="list-text">
+    			<h4>现在预定 到店付款</h4>
+    			<p>现在只需点击预定，您可以抵达酒店时付款，享受你的愉快旅程！</p>
+    		</div>
+    	</li>
+    	<li>
+    		<div class="two">02</div>
+    		<div class="list-text">
+    			<h4>加入我们</h4>
+    			<p>注册成为会员 享受更高折扣<br/>每次高达10%折扣！</p>
+    		</div>
+    	</li>
+    </ul>
+  </div>
+</section>
+
+<div class="weblink clearfix">
+	<div class="w1200 Web_link clearfix">
+		<h4>友情链接</h4>
+			<ul class="link-list clearfix">
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+				<li>
+						<a href="#">网站建设</a>
+				</li>
+			</ul>
+	</div>
+</div>
+<section class="bottomWrap">
+  <div class="w1200 clearfix">
+    <div class="bottomWrap-l">
+      <div class="blist">
+        <p class="babout"><a href="#">关于我们</a><i></i><a href="#">联系我们</a><i></i><a href="#">如何下单</a><i></i><a href="#">相关问题</a><i></i><a href="#">帮助</a></p>
+        <div class="ml10 address"><p>地址：武汉市江汉北路 九运大厦 D1002</p><p>工作时间：周一至周日9:00-21:00</p></div>
+        <p class="ml10">Copyright&copy;2010-2017 www.youthunion.com All Right Reserved　   备案号：鄂ICP备15000984号-1</p>
+      </div>
+    </div>
+    <div class="bottomWrap-r clearfix">
+      <h5>Follow us</h5>
+      <div class="spliter">
+      	<a href="javascript:;" target="_blank"><i class="fa fa-weixin"></i>
+      		<div class="code-qr">
+      			 <h4>维信扫一扫:分享</h4>
+      			 <div class="qrcode">
+      			 	 <img src="images/wx.png" alt="" />
+      			 </div>
+      			 <div class="help">
+      			 		<p>微信里点"发现",扫一下</p>
+      			 </div>
+      		</div>
+      	</a>
+      	<a href="javascript:;" target="_blank"><i class="fa fa-facebook"></i>
+      		<div class="code-qr">
+      			 <h4>维信扫一扫:分享</h4>
+      			 <div class="qrcode">
+      			 	 <img src="images/wx.png" alt="" />
+      			 </div>
+      			 <div class="help">
+      			 		<p>微信里点"发现",扫一下</p>
+      			 </div>
+      		</div>
+      	</a>
+      	<a href="javascript:;" target="_blank"><i class="fa fa-twitter"></i>
+      		<div class="code-qr">
+      			 <h4>维信扫一扫:分享</h4>
+      			 <div class="qrcode">
+      			 	 <img src="images/wx.png" alt="" />
+      			 </div>
+      			 <div class="help">
+      			 		<p>微信里点"发现",扫一下</p>
+      			 </div>
+      		</div>
+      	</a>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="wwshow">
+  <div class="w1200"> <a class="on" href="#"><i class="fa fa-home"></i>首页</a> <a href="javascript:;" onclick="showWindow('咨询电话','12345678901')"><i class="fa fa-phone"></i>咨询电话</a> <a href="#"><i class="fa fa-book"></i>租前须知</a> <a href="#"><i class="fa fa-user"></i>会员中心</a> </div>
+</footer>
+	<div class="orderment_box seach-Btn" id="orderment_box1">
+		  <form class="yykf" id="form-yykf">
+		        <div>
+		        	<label>1</label>
+		        	<input type="text" placeholder="搜索地区酒店"  class="search-text"/>
+		        </div>
+		        <div class="btn-shop">
+		        	<label>2</label>
+		        	<input type="text"  placeholder="入住日期"  class="search-join"/>
+		        </div>
+		         <div>
+		        	<label>3</label>
+		        	<input type="number" min="1" placeholder="房间数量"  class="search-num"/>
+		        </div>
+		        <div class="btn-search-wrap fr"><a class="btn-orange-fill" href="javascript:;">搜索</a></div>
+		  </form>
+	</div>
+<!--分享-->
+<div id="share" class="clearfix">
+		<div class="li-share"><a href="javascript:;">分享</a></div>
+		
+		<div id="fxmag" class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1427097632560">
+	        <div class="fxicon">
+	            <a href="javascript:void(0)" class="bds_qzone" data-cmd="qzone"><span id="qqkj"></span>空间</a>
+	        </div>
+	        <div class="fxicon">
+	            <a href="javascript:void(0)" class="bds_tsina" data-cmd="tsina"><span id="snwb"></span> 微博</a>
+	        </div>
+	        <div class="fxicon">
+	            <a href="javascript:void(0)" class="bds_renren" data-cmd="renren"><span id="rr"></span>人人</a>
+	        </div>
+	        <div class="fxicon">
+	            <a href="javascript:void(0)" class="popup_kaixin001" data-cmd="kaixin001"><span id="kx"></span>开心</a>
+	        </div>
+	        <div class="fxicon" style="border: 0px;">
+	            <a href="javascript:void(0)" class="bds_douban" data-cmd="douban"><span id="db"></span>豆瓣</a>
+	        </div>
+	    </div>
+	
+	</div>
+
+<!--siderbar-->
+
+<script>
+	var linkH =  $(".link-list").outerHeight()+$(".Web_link h4").outerHeight();	
+	$(".Web_link").height(linkH);
+	$(document).ready(function(){
+		if($(document).width()<=768){
+			if($(".link-list").children().length>=9){
+				$(".link-list li").eq(8).nextAll().remove();
+				var linkH =  $(".link-list").outerHeight()+$(".Web_link h4").outerHeight();	
+				$(".Web_link").height(linkH);
+			}
+		}
+	})
+		$('.to-top').toTop();
+		$("#form-yykf").validationEngine();
+		$(".spliter a").mousemove(function(){
+			 $(this).children(".code-qr").show();
+		})
+		$(".spliter a").mouseout(function(){
+			 $(this).children(".code-qr").hide();
+			 
+		})
+		 var startX, startY;  
+	  document.addEventListener('touchstart',function (ev) {  
+	      startX = ev.touches[0].pageX;  
+	      startY = ev.touches[0].pageY;    
+	  }, false);  
+	
+	  document.addEventListener('touchend',function (ev) {  
+	      var endX, endY;  
+	      endX = ev.changedTouches[0].pageX;  
+	      endY = ev.changedTouches[0].pageY;  
+	      var direction = GetSlideDirection(startX, startY, endX, endY);
+	      switch(direction) {  
+	          case 0:  
+	              break;  
+	          case 1:  
+	              break;  
+	          case 2:  
+	              break;  
+	        
+	          default:             
+	      }  
+	  }, false); 
+		function GetSlideDirection(startX, startY, endX, endY) {  
+      var dy = startY - endY;  
+      var result = 0; 
+      if(dy>25) {//向上滑动
+           $(".seach-Btn").hide();
+           $("html,body").css({"overflow":"auto","height":"auto"});
+      }
+  }
+	</script>
+</body>
+</html>

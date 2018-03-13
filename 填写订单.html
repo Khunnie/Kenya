@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>填写订单</title>
+		<link rel="stylesheet" href="css/core.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/demo.min.css" />
+		<link rel="stylesheet" href="css/typicons.min.css" />
+        <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/css.css" />
+		<link rel="stylesheet" href="css/b_style.css" />
+		<link rel="stylesheet" href="css/validationEngine.jquery.css" />
+		<link rel="stylesheet" href="css/home.css"  />
+		<link rel="stylesheet" href="css/self.css" />
+		
+        <link rel="icon" href="images/icon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+		<script type="text/javascript" src="js/jquery-1.8.0.min.js" ></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/jquery.toTop.min.js" ></script>  
+		<script type="text/javascript" src="js/fun.js" ></script>
+		<script type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+		<script type="text/javascript" src="js/jquery.validationEngine-zh_CN.js" ></script>
+		<script type="text/javascript" src="js/jquery.validationEngine.js"></script>
+		<script src="js/materialMenu.min.js" ></script>
+		<script type="text/javascript" src="js/share.js" ></script>
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+	</head>
+	<body style="background-color: #f8f8f8;">
+		<!--header-->
+		<div class="headerWrap_wc">
+			  <div class="header w1200 clearfix">
+			    <div class="clearfix log-ico">
+			      <div class="headL fl"><a href="index.html" class="logo"><img src="images/logo.png" alt="" /></a></div>
+				   		<div class="headBtns fr clearfix">
+					        <div class="unlogin fr"> 
+					        	<a class="btn btn-gborder fr ml10" href="#">注册</a> <a class="btn fr dl" href="#">登录</a> 
+					        </div>
+					        <div class="islogin ml10 fr"  style="display: none;"> 你好，
+					        	<a class="topuser" href="#">172910720@qq.com</a>，<a class="topexist" href="javascript:;">退出</a> 
+					        </div>
+					         <div class="tel fr banner-t">
+					         		<i></i>
+					         		<p>1234-0123456789</p>
+					         </div>
+					          <div class="tel fr now">BOOK NOW PAYLATER AT ARRIVAL</div>
+				      </div>
+			    </div>
+		  </div>
+		  <div class="navtel w1200 clearfix">
+		    <div class="logosmall fl"> <img class="fl" src="images/logo.png" alt="" />
+		      
+		      </div>
+		      <div id="wrapper" class="wrapper"></div>
+		      <div id="mm-menu-toggle" class="mm-menu-toggle"></div>
+		    </div>
+		    <!--侧滑--> 
+		    <!--left  icon-->
+		 
+		    
+		    <nav id="mm-menu" class="mm-menu">
+		      <div class="chlogo"><img src="images/logo.png" alt="" /></div>
+		      <ul class="form">
+		        <li class="cur"><a href="index.html">首页</a></li>
+		        <li><a href="#">我要租房</a></li>
+		        <li><a href="#">租前须知</a></li>
+		        <li><a href="#">青年之家</a></li>
+		        <li><a href="#">连锁加盟</a></li>
+		        <li><a href="#">关于我们</a></li>
+		      </ul>
+		      <div class="unlogin" style="padding: 15px; position: fixed;bottom:20px;display: none;"> <a class="btn" href="#">登录</a><a class="btn btn-gborder ml10" href="#">注册</a> </div>
+		      <div class="islogin" style="padding: 15px; position: fixed;bottom:20px;"> 你好，<a class="topuser" href="#">乘风万里<i class="tip-num">5</i></a>，<a class="topexist" href="javascript:;">退出</a> </div>
+		    </nav>
+		    <script>var menu = new Menu;</script> 
+		  </div>
+		</div>
+		
+		<section class="order-step wnone">
+			<div class="w1200">
+				<ul class="clearfix">
+					<li class="cur">1.填写住房信息</li>
+					<li>2.确认订单信息</li>
+					<li>3.预定成功</li>
+					<li>4.线下入住</li>
+					<li>5.确认入住</li>
+				</ul>
+			</div>
+		</section>
+		
+		<div class="w1200">
+			<section class="orderinfor">
+				<div class="order-tit">订单信息</div>
+				<div class="clearfix">
+					<div class="o-infor1">
+						<div class="clearfix">
+							<div class="o-infor-tit g3 fl">房间</div>
+							<div class="o-infor-tit g3 fl">房型选择</div>
+							<div class="o-infor-tit g3 fl">入住日期</div>
+							<div class="o-infor-tit g3 fl">入住人数</div>
+						</div>
+						<div class="clearfix">
+							<div class="o-infor-name g3 fl clearfix">
+								<div class="img-block g8 pr10"><img src="images/rome.png" width="100%" /></div>
+								<div class="fl pr10">内罗毕希尔顿酒店 Hilton Nairobi</div>
+							</div>
+							<div class="o-infor-room g3 fl">
+		                           <select>
+		                           	  <option>双人标准间</option>
+		                           	  <option>单人间</option>
+		                           </select>
+		                       		<select class="bed">
+		                           	  <option selected="selected">床型</option>
+		                           	  <option>双人床</option>
+		                           	  <option>单人床</option>
+		                           </select>
+							</div>
+							<div class="o-infor-room g3 fl">
+								<input type="date" value="2017-06-14" />
+							</div>
+							<div class="o-infor-room g3 fl">
+		                           	<input type="number" min="1" placeholder="成人" />
+		                           	
+		                           	<input type="number" min="1" placeholder="儿童" class="bed"/>
+		                           	
+							</div>
+						</div>
+					</div>
+					<div class="o-infor2">
+						<div class="clearfix">
+							<div class="o-infor-tit g5 fl">入住天数</div>
+							<div class="o-infor-tit g5 fl">房间数</div>
+							<div class="o-infor-tit g2 fl">折扣</div>
+							<div class="o-infor-tit g3 fl">小计($)</div>
+						</div>
+						<div class="clearfix">
+							<div class="o-infor-time g5 fl">
+								<span id="adder_1_1" class="adder clearfix">
+		                            <a class="sub ">-</i>
+		                            </a>
+		                            <input data-txt="1" data-couponprice="0" type="text" class="inpuText" maxlength="2" disabled="disabled" value="0">
+		                            <a class="add ">+</a>
+		                        </span>
+							</div>
+							<div class="o-infor-time g5 fl">
+								<span id="adder_1_2" class="adder clearfix">
+		                            <a class="sub ">-</i>
+		                            </a>
+		                            <input data-txt="1" data-couponprice="0" type="text" class="inpuText" maxlength="2" disabled="disabled" value="1">
+		                            <a class="add ">+</a>
+		                        </span>
+							</div>
+							<div class="o-infor-time g2 fl">
+								<span class="discount">-20%</span>
+							</div>
+							<div class="o-infor-subtotal g3 fl">
+								<div class="hy">
+									<h4>会员价:</h4><span>$5400</span></div>
+								<div class="yj">原价:<span>$6800</span></div>
+								<div class="zd">最低:<span>$6800</span></div>
+							</div>
+						</div>
+					</div>
+					<div class="o-infor3">
+				</div>
+			</section>
+			<div class="tc tj"><a href="javascript:;" onclick="submitinfo()" id="btn_sub" class="btn btntjxx f20">提交信息</a>
+			</div>
+		</div>
+		
+		<div class="overmask"></div>
+		<div class="orderment_box" id="orderment_box3">
+		    <div class="orderment_head">
+		        <h4>请确认您填写的用户资料及金额</h4>
+		        <p class="top-tips2">如果确认无误，请点击下面的付款按钮进行付款。</p>
+		    </div>
+		    <div class="succ-infor">
+	        	<ul>
+	        		<li>姓名：武先生</li>
+	        		<li>邮      箱：123456@qq.com</li>
+	        		<li>手机号码：13345698745</li>
+	        		<li>入住时间：2017-6-14</li>
+	        		<li>房      型：大床房</li>
+	        		<li>入住天数：3天</li>
+	        		<li>入住人数：2成人，2儿童</li>
+	        		<li>房间数：3间</li>
+	        		<li>预计金额：<span class="money">￥2000</span></li>
+	        		<li>备注：×××××××</li>
+	        	</ul>
+	        	
+	       </div>
+	       <p class="bot-tips">
+	       	请您确认以上信息完全正确，在付款后将不得进行任何修改，若需取消订单 须在入住前×天取消（如逾期不住,则扣除信用积分。）
+	       </p>
+	        <div class="precautions_btns clearfix mt15">
+	        	<a href="javascript:;" class="btn btnwyyy">确认</a>
+	        	<a href="javascript:;" class="btn btncancel cancel fr">返回修改</a>
+	        	
+	        </div>
+		</div>
+		
+		<script>
+			$("#form-xxtx").validationEngine();
+			
+			function submitinfo(){
+				var FormObj=$('#form-xxtx');
+				if(FormObj.validationEngine({ returnIsValid: true }))
+				{
+					FormObj.find('.btntjxx').text('正在提交');
+				}
+				if(FormObj.validationEngine({ success: true }))
+				{
+					showorder(3);
+				}
+			}
+			
+			$(function() {
+				init();	 
+			})
+			
+			//加减组件初始化
+			function init(){
+				$(".adder").each(function(){
+					if(!$(this).hasClass("fixcount"))
+					{
+						adder("#" + $(this).attr("id"));
+					}
+				});
+			}
+			
+			//加减法
+			function adder(id, MinInum, to, MaxInum) {
+				var Add = $(id).find('.add');
+				var Sub = $(id).find('.sub');
+				if(Add.hasClass("fixcount"))
+				{
+					return;
+				}
+				if(Sub.hasClass("fixcount"))
+				{
+					return;
+				}
+				var InpuText = $(id).find('.inpuText');
+		
+				var Inum = 0;
+				Inum = $(id).find('.inpuText').val();
+				if (Inum <= 0) {
+					Sub.addClass('disabled');
+					Add.removeClass('disabled');
+					InpuText.val(0);
+					Inum = 0;
+					InpuText.css('color','#999');
+				}else{
+					Sub.removeClass('disabled');
+					InpuText.css('color','');
+				}
+				if (to) {
+					if(Inum > 0 && Inum < MaxInum){
+						Sub.removeClass('disabled');
+						Add.removeClass('disabled');
+					}
+					Add.click(function() {
+						if (Inum >= 0 && Inum < MaxInum) {
+							$(this).parent().find('.inpuText').val(parseInt(Inum)+1);
+							Inum++;
+							Sub.removeClass('disabled');
+							Add.removeClass('disabled');
+							InpuText.css('color','');
+							if (Inum == MaxInum) {
+								Add.addClass('disabled');
+								Sub.removeClass('disabled');
+							}
+						}
+						var indexNow = $(this).parents('.typeinfo').index();
+						//getp(indexNow);
+					});
+				} else {
+					Add.click(function() {
+						if (Inum >= 0) {
+							$(this).parent().find('.inpuText').val(parseInt(Inum)+1);
+							Inum++;
+							Sub.removeClass('disabled');
+							InpuText.css('color','');
+						}
+						var indexNow = $(this).parents('.typeinfo').index();
+						//getp(indexNow);
+					});
+				}
+				Sub.click(function() {
+					if (Inum > 0) {
+						Add.removeClass('disabled');
+						$(this).parent().find('.inpuText').val(parseInt(Inum)-1);
+						Inum--;
+						if (Inum == 0) {
+							Sub.addClass('disabled');
+							InpuText.css('color','#999');
+						}
+					}else if (Inum == 0) {
+						Inum = 0;
+						$(this).parent().find('.inpuText').val(Inum);
+						Sub.addClass('disabled');
+						InpuText.css('color','#999');
+					}
+					var indexNow = $(this).parents('.typeinfo').index();
+					//getp(indexNow);
+				});
+			}
+
+		</script>
+
+
+	<script>
+		$('.to-top').toTop();
+		$("#form-yykf").validationEngine();
+		//发送验证码
+		function yzm_ajax(){
+			
+			var Mobile=$("#Mobile").val();
+			var sjyz_span=$("#sjyz_span");
+			var miao=60
+			
+			if(Mobile.length==11){
+		sjyz_span.html('正在发送验证码');
+					$.ajax({
+						type: "get",
+						url: "/Plus/Orders/SendMessage.aspx?Mobile="+Mobile,
+						success: function(data){
+							if(data==0){
+								sjyz_span.html('10秒后再次获取');
+								miao=10;
+								yzm_set=setInterval(yzm_60,1000)
+							}else{
+								sjyz_span.html('60秒后再次获取');
+								yzm_set=setInterval(yzm_60,1000)
+							}
+							
+						},error: function(){}
+					}); 
+			}	
+			function yzm_60(){
+				miao--
+				sjyz_span.html(miao+"秒后再次获取");
+				if(miao<=0){
+					clearInterval(yzm_set);
+					miao=60;
+					sjyz_span.html('<a class="getphoncode" href="javascript:;" onclick="yzm_ajax()">获取手机验证码</a>');
+				};
+			};
+		};
+	</script>
+	<section class="bottomWrap">
+	  <div class="w1200 clearfix">
+	    <div class="bottomWrap-l">
+	      <div class="blist">
+	        <p class="babout"><a href="#">关于我们</a><i></i><a href="#">联系我们</a><i></i><a href="#">如何下单</a><i></i><a href="#">相关问题</a><i></i><a href="#">帮助</a></p>
+	        <div class="ml10 address"><p>地址：武汉市江汉北路 九运大厦 D1002</p><p>工作时间：周一至周日9:00-21:00</p></div>
+	        <p class="ml10">Copyright&copy;2010-2017 www.youthunion.com All Right Reserved　   备案号：鄂ICP备15000984号-1</p>
+	      </div>
+	    </div>
+	    <div class="bottomWrap-r clearfix">
+	      <h5>Follow us</h5>
+	      <div class="spliter">
+	      	<a href="javascript:;" target="_blank"><i class="fa fa-weixin"></i></a>
+	      	<a href="javascript:;" target="_blank"><i class="fa fa-facebook"></i></a>
+	      	<a href="javascript:;" target="_blank"><i class="fa fa-twitter"></i></a>
+	      </div>
+	      
+	    </div>
+		</div>
+	</section>
+	<!--分享-->
+		<div id="share" class="clearfix">
+			<div class="li-share"><a href="javascript:;">分享</a></div>
+			
+			<div id="fxmag" class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1427097632560">
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="bds_qzone" data-cmd="qzone"><span id="qqkj"></span>空间</a>
+		        </div>
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="bds_tsina" data-cmd="tsina"><span id="snwb"></span> 微博</a>
+		        </div>
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="bds_renren" data-cmd="renren"><span id="rr"></span>人人</a>
+		        </div>
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="popup_kaixin001" data-cmd="kaixin001"><span id="kx"></span>开心</a>
+		        </div>
+		        <div class="fxicon" style="border: 0px;">
+		            <a href="javascript:void(0)" class="bds_douban" data-cmd="douban"><span id="db"></span>豆瓣</a>
+		        </div>
+		    </div>
+		
+		</div>
+		<footer class="wwshow">
+  <div class="w1200"> <a class="on" href="#"><i class="fa fa-home"></i>首页</a> <a href="javascript:;" onclick="showWindow('咨询电话','12345678901')"><i class="fa fa-phone"></i>咨询电话</a> <a href="#"><i class="fa fa-book"></i>租前须知</a> <a href="#"><i class="fa fa-user"></i>会员中心</a> </div>
+</footer>
+	</body>
+</html>

@@ -1,0 +1,143 @@
+/*尺寸大小*/
+@media screen and (max-width: 1200px){
+.hex:nth-child(11n-4){margin-left: 0;}
+.hex{background-size: 100% 100%;}
+.overlay{top:50px;}
+.headR{width: 80%;float:right;margin: 10px 0;}
+.headBtns{margin: 15px 0 0 0;}
+.headR .nav{margin: 10px 0;}
+.searchbar{bottom: 80px;}
+.banner-z{display: none;}
+.search-wbg div{width: 22%;}
+.search-wbg label{width: 20%;}
+.search-wbg div input{width:80%;}
+.search-wbg .btn-shop{width: 35%;}
+.search-wbg .btn-shop input{width: 40%;}
+.search-wbg .btn-search-wrap{width: 10%;}
+.want .booking{width: 25%;background-size: 100% 100%;}
+.want-content{width: 75%;}
+.Enter-email{width: 80%;}
+.Subscribe{width:17%;}
+.list-family li{width: 48.7%;}
+.one, .two{width: 20%;}
+.list-text{width: 80%;}
+.o-infor1{width: 100%;}
+.o-infor2{width: 100%;}
+.booking .ten{font-size:44px;line-height: 44px;height: 44px;}
+.booking .your{font-size: 12px;}
+}
+@media screen and (max-width: 960px){
+.hex{width:50%!important;}
+.hex:nth-child(11n-4){margin-left: 0;}
+.list-family li{width: 48.5%;}
+.o-infor1{width:100%;}
+.o-infor2{width:100%;}
+.want .booking{padding-left: 1%;}
+.booking div:first-child{width: 30%;margin-right: 20px;}
+.booking div:last-child{width: 55%;}
+.booking .ten{margin-top: 45px; font-size:30px;height: 30px;line-height:30px;}
+.booking .count{margin-top: 12px;padding-left: 0;}
+.headBtns .now{display: none;}
+}
+
+@media screen and (max-width: 768px){
+.headerWrap_wc {height: 52px;}
+.main_visual{width: 100%;}
+.logosmall img{width:25%;height: 32px;}
+.mm-menu{z-index:10003;}
+.mm-menu .btn{padding: 8px 3px;}
+.mm-menu-toggle {width:35px;height:35px;background: url(../images/menu.png) no-repeat center center #fff;background-size: 64%;margin-top: 10px;}
+.searchbar{display: none;}
+.seach-Btn div{margin-bottom: 20px;width: 100%;height: 50px;line-height: 50px;}
+.seach-Btn{width: 100%;height:100%;padding: 20px;left: 0;top:52px!important;border: none;border-radius: 0;z-index: 1002;background: #fff;position: absolute;;}
+.seach-Btn input{width:85%;height:50px;border: 1px solid #d1d1d1;color: #666;float: left;text-indent: 5px;background: #f4f4f4;border-radius: 0;-webkit-appearance: none; border-radius: 0;}
+.seach-Btn label{width:15%;height:50px;text-align: center;background: #e89800;color: #fff;display: inline-block;float: left;font-weight: bold;}
+.seach-Btn .btn-search-wrap{width: 93%;border-radius: 5px;margin: 0 3%;
+background: #e89800;text-align: center;margin-top: 35px;}
+.seach-Btn .btn-orange-fill{color: #fff;background-color: #e89800;}
+.indexbanner div span{background-size: 100% 100%;background-position-y:48px;}
+.btn-seach{width: 100%;height:50px;z-index: 100;position: absolute;left: 0;top: 0;display: block;background: #fff;overflow: hidden;}
+.serviceBlock .hex{min-height:170px;height: 170px;margin-bottom: 5px!important;}
+.btn-button{width:14%;height: 100%; background: url(../images/search.png) no-repeat center center #e89801;background-size:45%;float: left;}
+.btn-search{width: 86%;height: 100%;background: #fff;float: left; text-indent: 20px;-webkit-appearance: none;border-radius: 0;}
+.indextitle img {width:50%;}
+.param-block .fr{display: none;}
+.productblock li.productbig .img-block img{height: 345px!important;}
+.productWrap .productblock li .img-block i{background-size: 100% 100%; width: 40px; height: 40px;}
+.overlay{top: 60px;}
+.overlay a,.hex:last-child .overlay a {font-size: 20px;}
+.price em{font-size: 12px;}
+.topWrap{padding-top:50px;}
+.serviceBlock .bg-tip{margin-right: 0!important;}
+.tc .w1200{width: 100%;}
+.want{height:270px;margin-top: 20px;}
+.want .booking{width: 100%;height: 130px;}
+.want-content{width: 100%;height:125px;padding: 0 11px;} 
+.want-content .remarks{font-size: 12px;line-height:16px;margin-top: 15px;}
+.Enter-email,.Subscribe{border-radius: 8px!important;}
+.Enter-email{width: 70%;}
+.Subscribe{width: 26%;}
+.reservationWrap{height:628px; padding: 0;}
+.percent{width: 50px;height: 50px;}
+.percent strong{margin-top: 5px;}
+.percent strong,.percent em{font-size: 12px;}
+.list-family{width: 97%;height:336px;margin: 0 auto; margin-top: 22px;}
+.list-family li{width: 100%;margin-bottom: 20px;}
+.bottomWrap .bottomWrap-l{width: 100%;}
+.blist{line-height: 20px;font-size: 12px;}
+.blist .babout a{font-weight: bold;}
+.ml10 b{width: 160px;}
+.address{margin-top: 5px;margin-bottom: 5px;}
+.bottomWrap .bottomWrap-r{display: none;}
+.address p{width: 100%;}
+.good-list .priceDetail .price,.good-list .btnljkf{width: 50%;float: left;}
+.o-infor1{width: 100%;}
+.o-infor2{width: 100%;}
+.good-list .img-block, .good-list .img-block a{width: 100%;height: 100%;}
+.pgwSlideshow .ps-list li .ps-item,.pgwSlideshow .ps-list li img{width: 60px; height: 60px;}
+.pgwSlideshow .ps-current .ps-prev, .pgwSlideshow .ps-current .ps-next{font-size: 70px;}
+.room_detail_right .room_name h1,.f18{font-size: 16px;font-weight: bold;}
+.room_detail_right .price em {font-size: 18px;}
+.room_detail_right{min-height:456px;}
+.room_btns .btnwyyy{margin-top: 30px;}
+.aboutRoom p {margin-bottom: 0;}
+.chanelContext li{width: 30%;height: 60px;}
+.chanelContext li a{font-size: 14px; line-height: 60px;}
+.chanelContext li:first-child a {height: 60px;line-height: 15px;}
+.rent_list .infos{width: 100%;}
+.rent_list .infos .name a{line-height: 2em;}
+.index-page li,.index-page li a{width: 22px;height: 22px;line-height: 20px;}
+.want .booking{padding-left: 2%;font-size: 16px;}
+.booking div:first-child{width:125px;margin-right: 0;}
+.booking .ten{margin-top: 30px; font-size:50px;height:50px;line-height:50px;}
+.booking .count{margin-top: 12px;}
+.booking .your{margin-top:50px;}
+.list-text h4{margin-top: 12px;line-height: 20px;}
+.reservationWrap .list-text p{line-height: 20px;font-size: 14px;margin-top: 6px;}
+.weblink h4{height: 30px;line-height: 30px;}
+.link-list{padding-top: 10px;}
+.link-list li{width: 33.3%;}
+.weblink{padding:10px 0;}
+}
+@media screen and (max-width: 375px){
+.mm-menu-toggle{margin-top: 8px;}
+.Enter-email{width: 69%;}
+.ml10 b{width:36%;}
+.blist .babout a{margin: 0 6px;}
+.address p{width: 100%;}
+.good-list .priceDetail .price,.good-list .btnljkf{width: 50%;float: left;}
+.o-infor1{width: 100%;}
+.o-infor2{width: 100%;}
+.good-list .img-block, .good-list .img-block a{width: 100%;height: 100%;}
+.pgwSlideshow .ps-list li .ps-item,.pgwSlideshow .ps-list li img{width: 60px; height: 60px;}
+.pgwSlideshow .ps-current .ps-prev, .pgwSlideshow .ps-current .ps-next{font-size: 50px;}
+.room_detail_right .room_name h1,.f18{font-size: 16px;}
+.room_detail_right .price em {font-size: 18px;}
+.room_detail_right{min-height:456px;}
+.room_btns .btnwyyy{margin-top: 30px;}
+.aboutRoom p {margin-bottom: 0;}
+.chanelContext li{width: 46%;height: 60px;}
+.chanelContext li a{font-size: 14px; line-height: 60px;}
+.rent_list .infos{width: 100%;}
+.rent_list .infos .name a{line-height: 2em;}
+}

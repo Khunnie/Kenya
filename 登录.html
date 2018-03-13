@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>登录</title>
+		<link rel="stylesheet" href="css/core.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/demo.min.css" />
+		<link rel="stylesheet" href="css/typicons.min.css" />
+        <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+		<link rel="stylesheet" href="css/css.css" />
+		<link rel="stylesheet" href="css/b_style.css" />
+		<link rel="stylesheet" href="css/validationEngine.jquery.css" />
+		<link rel="stylesheet" href="css/home.css"/>
+		<link rel="stylesheet" href="css/self.css" />
+		
+        <link rel="icon" href="images/icon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+		<script type="text/javascript" src="js/jquery-1.8.0.min.js" ></script> 
+		<script type="text/javascript" src="js/fun.js" ></script>
+		<script type="text/javascript" src="js/jquery.validationEngine-zh_CN.js" ></script>
+		<script type="text/javascript" src="js/jquery.validationEngine.js"></script>
+		<!--定位-->
+		<script type="text/javascript" src="js/share.js" ></script>
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+	</head>
+	<body style="padding: 0;">
+		<!--header-->
+		<div class="headerWrap_wc">
+			  <div class="header w1200 clearfix">
+			    <div class="clearfix log-ico">
+			      <div class="headL fl"><a href="index.html" class="logo"><img src="images/logo.png" alt="" /></a></div>
+			   		<div class="headBtns fr clearfix">
+				        <div class="unlogin fr"> 
+				        	<a class="btn btn-gborder fr ml10" href="#">注册</a> <a class="btn fr dl" href="#">登录</a> 
+				        </div>
+				        <div class="islogin ml10 fr"  style="display: none;"> 你好，
+				        	<a class="topuser" href="#">172910720@qq.com</a>，<a class="topexist" href="javascript:;">退出</a> 
+				        </div>
+				         <div class="tel fr banner-t">
+				         		<i></i>
+				         		<p>1234-0123456789</p>
+				         </div>
+				          <div class="tel fr now">BOOK NOW PAYLATER AT ARRIVAL</div>
+				      </div>
+			    </div>
+		  </div>
+		  <div class="navtel w1200 clearfix">
+		    <div class="logosmall fl"> <img class="fl" src="images/logo.png" alt="" />
+		      
+		      </div>
+		      <div id="mm-menu-toggle" class="mm-menu-toggle"></div>
+		    </div>
+		
+		</div>
+	
+		<section class="reg">
+			<div class="w1200">
+				<div class="reg-block" style="margin-top: 40px;">
+					<div class="reg-tit">REGISTER</div>
+					<form id="regform">
+						<ul>
+							<li><label class="txt"><i class="fa email-ico"></i><input type="text" class="reginputstl validate[required,custom[phone]" id="_mobile" placeholder="请输入您的邮箱地址" /></label></li>
+							<li><label class="txt"><i class="fa pas-ico"></i><input type="password"  id="password" class="reginputstl validate[required]" placeholder="请输入6-16位密码" /></label></li>
+							<li><label class="txt"><i class="fa pas-ico"></i><input type="password"  id="password" class="reginputstl validate[required]" placeholder="请确认您的密码" /></label></li>
+						
+							<li><a class="btn btn-reg radius" href="#">登录</a></li>
+							<li class="tc f16">已有帐号？现在<a class="orange" href="#">登录</a></li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</section>
+		
+		<section class="bottomWrap">
+		  <div class="w1200 clearfix">
+		    <div class="bottomWrap-l">
+		      <div class="blist">
+		        <p class="babout"><a href="#">关于我们</a><i></i><a href="#">联系我们</a><i></i><a href="#">如何下单</a><i></i><a href="#">相关问题</a><i></i><a href="#">帮助</a></p>
+		        <div class="ml10 address"><p>地址：武汉市江汉北路 九运大厦 D1002</p><p>工作时间：周一至周日9:00-21:00</p></div>
+		        <p class="ml10">Copyright&copy;2010-2017 www.youthunion.com All Right Reserved　   备案号：鄂ICP备15000984号-1</p>
+		      </div>
+		    </div>
+		    <div class="bottomWrap-r clearfix">
+		      <h5>Follow us</h5>
+		      <div class="spliter">
+		      	<a href="javascript:;" target="_blank"><i class="fa fa-weixin"></i></a>
+		      	<a href="javascript:;" target="_blank"><i class="fa fa-facebook"></i></a>
+		      	<a href="javascript:;" target="_blank"><i class="fa fa-twitter"></i></a>
+		      </div>
+		      
+		    </div>
+		  </div>
+		</section>
+		<!--分享-->
+		<div id="share" class="clearfix">
+			<div class="li-share"><a href="javascript:;">分享</a></div>
+			
+			<div id="fxmag" class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1427097632560">
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="bds_qzone" data-cmd="qzone"><span id="qqkj"></span>空间</a>
+		        </div>
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="bds_tsina" data-cmd="tsina"><span id="snwb"></span> 微博</a>
+		        </div>
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="bds_renren" data-cmd="renren"><span id="rr"></span>人人</a>
+		        </div>
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="popup_kaixin001" data-cmd="kaixin001"><span id="kx"></span>开心</a>
+		        </div>
+		        <div class="fxicon" style="border: 0px;">
+		            <a href="javascript:void(0)" class="bds_douban" data-cmd="douban"><span id="db"></span>豆瓣</a>
+		        </div>
+		    </div>
+		
+		</div>
+	<script>
+		$("#regform").validationEngine();
+		placeholderfun();
+		function sendSmsCode()
+	    {
+	        if($('.btnfsyzm').hasClass('disabled')){
+	            return false;
+	        }
+	        //发送短信
+	        $.ajax({
+	            url : '/usercommon/sendsms',
+	            type: 'post',
+	            dataType: 'json',
+	            cache: false,
+	            data: {
+	                mobile: $('#_mobile').val(),
+	                csrf_token:'uBdTv8ul3BuCBcR97zsn1jdPvNuKHVaetFABWlKH'
+	            },
+	            success : function(json){
+	                if(json.value){
+	                    var that = $('.btnfsyzm');
+	                    countDown(that,59);
+	                }else{
+	                    alert(json.text);
+	                }
+	            }
+	        });
+	    }
+	    function countDown(ele, n)
+		{
+		    if(!n) {
+		        ele.removeClass('disabled').html('重新获取');
+		    } else {
+		        ele.addClass('disabled');
+		        n--;
+		        ele.html(n+'秒后重新获取');
+		        setTimeout(function() {
+		            countDown(ele, n);
+		        },1000);
+		    }
+		}
+		
+		
+		function placeholderfun(){  
+			if( !('placeholder' in document.createElement('input')) ){    
+				function GetStringNumValue(pxstr){  
+					return pxstr.substring(0,pxstr.length-2);  
+				}  
+				  
+				$('input[placeholder],textarea[placeholder]').each(function(){  
+					var $element = $(this),   
+					placeholder = $element.attr('placeholder');  
+					if($element.attr('type') != 'password'){//非密码  
+						if($element.val()===""){  
+							$element.val(placeholder).addClass('placeholder');
+						}     
+						$element.focus(function(){     
+							if($element.val()===placeholder){  
+							  $element.val("").removeClass('placeholder');
+							}     
+						}).blur(function(){     
+							if($element.val()===""){   //if($element.val()==="" &&  ($element.attr('type') != 'password')){    
+								$element.val(placeholder).addClass('placeholder');   
+							}   
+						  }).closest('form').submit(function(){     
+							if($element.val() === placeholder){     
+							  $element.val('');     
+							}     
+						  });     
+					}else{//密码框  
+						 if (placeholder){  
+							 // 文本框ID  
+							var elementId = $element.attr('id');  
+							 if (!elementId) {  
+								var now = new Date();  
+								elementId = 'lbl_placeholder' + now.getSeconds() + now.getMilliseconds();  
+								$element.attr('id', elementId);  
+							 }  
+						 }//end of if (placeholder)  
+						  // 添加label标签，用于显示placeholder的值  
+						var $label = $('<label>', {  
+										html: $element.val() ? '' : placeholder,  
+										'for': elementId,  
+										css:{  
+											position: 'absolute',  
+											cursor: 'text', 
+											fontSize: $element.css('fontSize'),  
+											fontFamily: $element.css('fontFamily')  
+										}  
+									}).insertAfter($element);  
+						 // 绑定事件  
+						var _setPosition = function () {  
+								$label.css({   
+									marginTop:'-30px',  
+									marginLeft:'10px'  
+								});  
+							};  
+						var _resetPlaceholder = function () {  
+							if ($element.val()) { $label.html(null); }  
+							else {  
+								_setPosition();  
+								$label.html(placeholder);  
+							}  
+						};  
+						_setPosition();  
+						$element.on('focus blur input keyup propertychange resetplaceholder', _resetPlaceholder);  
+					}     
+				});   
+			  }    
+		}  
+	</script>
+	</body>
+</html>

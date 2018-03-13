@@ -1,0 +1,148 @@
+/**首页**/
+@media screen and (max-width: 1200px){
+	.wnone{display: none!important;}
+	.wshow{display: block!important;}
+	.w1200{ width:95%;}
+	.partner .next,.partner .next{display: none;}
+	.main-content .main-content-tit{left:-2.5%;border-left-width: 10px;}
+	.wnone,#btn_prev,#btn_next,.productWrap .productblock li:nth-child(4),.productWrap .productblock li:nth-child(5){display: none;}
+	.headR,.headR .nav{width:100%;float: none;margin: 0;}
+	.headR{margin-bottom: 20px;}
+	.headR .nav li{width:15%;}
+	.headBtns{margin:40px 0;}
+	.main_visual,.main_visual .swiper-slide{height:400px;}
+	.indexbanner div span{background-size: 170%;}
+	.weareWrap{height:280px;background-size: 170%;}
+	.banner .swiper-pagination{bottom:90px!important;}
+	.searchbar{padding:15px 0;}
+	div.flicking_con{bottom: 95px;}
+	.productWrap .productblock ul{margin-left: -2%;}
+	.productWrap .productblock li{width:48%;margin-left: 2%;}
+	.swiper-container1 .swiper-slide{width: 380px;height: 240px;}
+	.serviceBlock .hex{width:25%;margin-left: 0;margin-top:-70px;}
+	.hexagon2{left:5px;}
+	.hex:nth-child(7n-2){ margin-left: 12.5%;}
+	.activeBlock li,.join-p-list li{width:50%;}
+	.activeBlock li .img-block{height: 411px;}
+	.bottomWrap .bottomWrap-r{margin-top: 0;}
+	.bottomWrap .bottomWrap-r .h24{width:60%;text-align: right;}
+	.bottomWrap .bottomWrap-r .wm2{width:40%;text-align: right;}
+	.bottomWrap .bottomWrap-r .h24 img{width:80%;}
+	.bottomWrap .bottomWrap-r .wm2 img{width:80%;}
+	.orderment_box{left:5%;width:90%;margin-left: 0;}
+	.rent_list .priceDetail{float: left;margin-left: 20px;}
+	.rent_list .priceDetail .price{margin-top: 10px;}
+	.room_detail_left,.room_main_right{width:100%;position:relative;margin-bottom:15px;}
+	.room_detail_right,.room_main_left{margin-left: 0;margin-right: 0;}
+	.order-tit{border-bottom: 1px solid #ddd;font-size: 16px;padding:10px;}
+	.o-infor1,.o-infor2,.fillinfor .fill1,.fillinfor .fill2{float: none;width:100%;margin: 0;}
+	.fillinfor .orderment_content{padding:0}
+	.f-q .f-q-lists{width:100%;}
+	.qn-list ul,.qn-list.qn-list-p ul{margin-left:0;}
+	.qn-list li{width:100%;float:none;margin-left: 0;}
+	.qn-list.qn-list-p li{width:50%;margin-left: 0;}
+	.qn-slide{height:160px;background-size: 180%;}
+	.join-banner{height:300px;}
+	.us-banner{height:350px;}
+}
+
+@media screen and (max-width: 767px){
+	.filter{display: none;margin-top: 0;}
+	.wwnone,.swiper-button-prev,.swiper-button-next{display: none!important;}
+	.wwshow{display: block!important;}
+	.btn{padding: 6px 12px;}
+	.mm-menu .btn{padding: 8px 20px;}
+	.headerWrap_wc{z-index: initial;}
+	.logosmall{width: 70%;margin:10px 0;}
+	.logosmall img{width: 60%;vertical-align: middle;}
+	.header{display: none;}
+	.navtel{display: block;}
+	.mm-menu {width: 50%;}
+	.mm-menu-toggle{margin-top: 10px;width:45px;height:45px;}
+	/*.main_image,.main_image ul{height:255px;}
+	.main_image li span{background-size: 220%;}*/
+	.main_visual,.main_visual .swiper-slide{height:255px;}
+	.indexbanner div span{background-size: 220%;}
+	.weareWrap{height:155px;background-size: 220%;}
+	.banner .swiper-pagination{bottom:80px!important;}
+	.searchbar{padding:10px 0;}
+	.searchbar .search-wabg{width: 100%;}
+	div.flicking_con{bottom: 80px;}
+	div.flicking_con a{width:10px;height:10px;}
+	.indextitle img{width:90%;}
+	.productWrap{padding-top:35px;padding-bottom: 0; background: none;}
+	.productWrap .productblock{padding:0;min-height:360px;}
+	.productWrap .productblock ul{margin-left: -2%;}
+	.productWrap .productblock li{width:48%;margin-left: 2%;}
+	.productWrap .productblock li .img-block img{height:110px;}
+	.productWrap .productblock li.productbig .img-block img{height:252px;}
+	.swiper-container1 .swiper-slide{width: 220px;height: 139px;}
+	
+	.serviceBlock .hex{width:33.3%;margin-left: 0;margin-top:-130px;}
+	.hexagon2{left:3px;}
+	.hex:nth-child(5n-1){ margin-left: 16.6%;}
+	.serviceWrap,.makerWrap{background-image:none;}
+	.serviceWrap .quote{min-height: 60px;}
+	.serviceWrap .quote i{font-size:24px;}
+	.gallery-item .overlay a,.serviceWrap .quote .say{font-size:18px;}
+	.activeWrap .w1200{padding:10px;}
+	.activeBlock{margin-top:40px;}
+	.activeBlock li .img-block{height:170px;}
+	.reservationWrap{height:150px;padding:25px 0;}
+	.reservationWrap h4{font-size: 20px;}
+	.reservationWrap p{margin-top:20px;}
+	.reservationWrap .btnreservation{width:50%;}
+	.bottomWrap .bottomWrap-l,.bottomWrap .bottomWrap-r{float: none;width: 100%;}
+	.bottomWrap .bottomWrap-r .h24{width:60%;text-align: left;float: left;}
+	.bottomWrap .bottomWrap-r .wm2{width:40%;text-align: right;float: right;}
+	body{padding-bottom:70px;}
+	
+	.rent_list .img-block,.rent_list .img-block a{width:100%;}
+	.rent_list .img-block,.rent_list .infos,.rent_list .priceDetail{float: none;margin: 0;padding: 0;}
+	.headlocation{margin-top: 15px;}
+	.room_detail_left{height:320px;}
+	#orderment_box3 .orderment_head h4{font-size: 16px;}
+	.f-q{padding: 20px 0;}
+	
+	
+	.qn-list li .img-block, .qn-list li .img-block a{height:145px;}
+	.qn-list.qn-list-p li .img-block, .qn-list.qn-list-p li .img-block a{height:auto;}
+	.qn-list.qn-list-p li{width:100%;margin-left: 0;float: none;}
+	
+	.qn-o-nav .swiper-wrapper{transition-duration: 0ms;transform: translate3d(-237.333px, 0px, 0px);}
+	.qn-slide{height:100px;background-size: 230%;}
+	.join-banner{height:150px;background-size: 250%;}
+	.join-us{padding:40px 0;}
+	.join-us h3{font-size: 20px;}
+	.join-us p{font-size: 14px;}
+	.join-us p.tel{font-size: 30px;}
+	.join-us p.tel i{margin-right: 10px;}
+	.join-us .btnreservation{font-size: 20px;width:50%;line-height: 2em;}
+	.join-r-list{margin:70px 0 0;}
+	.join-r-list li{width:50%;}
+	.join-p-list{margin-left: 30px;}
+	.join-p-list li{width:100%;}
+	#yzm img{width:95px}
+	.us-banner{height:200px;background-size: 250%;}
+	.us-nav ul{width:100%;}
+	.us-nav ul li{font-size: 14px;}
+	.us-block{padding:50px 0}
+	.us-tit strong{font-size: 20px;}
+	.us-tit p{font-size: 18px;height:16px}
+	.us-block-intro{margin-top: 0;}
+	.us-block-intro p{font-size: 16px;margin:10px 0;} 
+	.us-team li{width:50%;}
+	.details {padding: 30px 0;}
+	.details h1 {font-size: 24px;line-height: 1.5em;}
+	.details-content{width: 100%;}
+	.paymethod .pm{width:100%;margin-right: 0;}
+}
+
+@media screen and (max-width: 375px){
+	.indexbanner div span{background-size: 260%;}
+	.room_detail_left{height:320px;}
+	.qn-list li .img-block, .qn-list li .img-block a{height:125px;}
+	.qn-slide{height:80px;background-size: 210%;}
+	.join-banner{height:120px;}
+	.us-banner{height:170px;}
+}

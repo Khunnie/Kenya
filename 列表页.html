@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>列表</title>
+		<link rel="stylesheet" href="css/core.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/demo.min.css" />
+		<link rel="stylesheet" href="css/typicons.min.css" />
+        <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+		<link rel="stylesheet" href="css/css.css" />
+		<link rel="stylesheet" href="css/b_style.css" />
+		<link rel="stylesheet" href="css/home.css"/>
+		<link rel="stylesheet" href="css/self.css" />
+		
+        <link rel="icon" href="images/icon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+		<script type="text/javascript" src="js/jquery-1.8.0.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.toTop.min.js" ></script>  
+		<script type="text/javascript" src="js/fun.js" ></script>
+		<script src="js/materialMenu.min.js" ></script>
+		<script type="text/javascript" src="js/share.js" ></script>
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+	</head>
+	<body>
+		<!--header-->
+		<div class="headerWrap_wc">
+		  <div class="header w1200 clearfix">
+		   <div class="clearfix log-ico">
+		      	<div class="headL fl">
+		      	    <a href="index.html" class="logo">
+		      			<img src="images/logo.png" alt="" /></a>
+		     	</div>
+			   		
+			    <div class="headBtns fr clearfix">
+				    <div class="unlogin fr"> 
+				        <a class="btn btn-gborder fr ml10" href="#">注册</a> <a class="btn fr dl" href="#">登录</a> 
+				    </div>
+				    <div class="islogin ml10 fr"  style="display: none;"> 你好，
+				        <a class="topuser" href="#">172910720@qq.com</a>，<a class="topexist" href="javascript:;">退出</a> 
+				    </div>
+				    <div class="tel fr banner-t">
+				        <i></i>
+				        <p>1234-0123456789</p>
+				    </div>
+				    <div class="tel fr now">BOOK NOW PAYLATER AT ARRIVAL</div>
+			    </div>
+			</div>
+		     <div class="search-wbg clearfix list-page">
+	            <div>
+	            	<label>1</label>
+	            	<input type="text" placeholder="搜索地区酒店"  class="search-text"/>
+	            </div>
+	            <div class="btn-shop">
+	            	<label>2</label>
+	            	<input type="text" placeholder="入住日期"  class="search-join"/>
+	            	<input type="text" placeholder="退房日期"  class="search-quit"/>
+	            </div>
+	             <div>
+	            	<label>3</label>
+	            	<input type="number" min="1" placeholder="房间数量"  class="search-num"/>
+	            </div>
+	            <div class="btn-search-wrap fr"><a class="btn-orange-fill" href="javascript:;">搜索</a></div>
+	          </div>
+		  </div>
+		  <div class="navtel w1200 clearfix">
+		    <div class="logosmall fl"> <img class="fl" src="images/logo.png" alt="" />
+		      
+		      </div>
+		      <div id="wrapper" class="wrapper"></div>
+		      <div id="mm-menu-toggle" class="mm-menu-toggle"></div>
+		    </div>
+		    <!--侧滑--> 
+		    <!--left  icon-->
+		 
+		    
+		    <nav id="mm-menu" class="mm-menu">
+		      <div class="chlogo"><img src="images/logo.png" alt="" /></div>
+		      <ul class="form">
+		        <li class="cur"><a href="index.html">首页</a></li>
+		        <li><a href="#">我要租房</a></li>
+		        <li><a href="#">租前须知</a></li>
+		        <li><a href="#">青年之家</a></li>
+		        <li><a href="#">连锁加盟</a></li>
+		        <li><a href="#">关于我们</a></li>
+		      </ul>
+		      <div class="unlogin" style="padding: 15px; position: fixed;bottom:20px;display: none;"> <a class="btn" href="#">登录</a><a class="btn btn-gborder ml10" href="#">注册</a> </div>
+		      <div class="islogin" style="padding: 15px; position: fixed;bottom:20px;"> 你好，<a class="topuser" href="#">乘风万里<i class="tip-num">5</i></a>，<a class="topexist" href="javascript:;">退出</a> </div>
+		    </nav>
+		    <script>var menu = new Menu;</script> 
+		  </div>
+		</div>
+		<section class="rentWrap1">
+			<!--搜索-->
+			<div class="w1200">
+				<div class="filterfold wwshow on">条件筛选<i class="fa fa-plus-square"></i><i class="fa fa-minus-square"></i></div>
+				<div class="filter">
+					<div class="filter1">
+						<dl>
+							<dt>城市：</dt>
+							<dd>
+								<a class="all slted" href="javascript:;">全部</a>
+								<a href="javascript:;">城市1</a>
+								<a href="javascript:;">城市2</a>
+								<a href="javascript:;">城市3</a>
+								<a href="javascript:;">城市4</a>
+								<a href="javascript:;">城市5</a>
+								<a href="javascript:;">城市6</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>价格：</dt>
+							<dd>
+								<a class="all slted" href="javascript:;">全部</a>
+								<a href="javascript:;">0-500</a>
+								<a href="javascript:;">500-700</a>
+								<a href="javascript:;">700-1000</a>
+								<a href="javascript:;">1000-1500</a>
+								<a href="javascript:;">1500-2000</a>
+								<a href="javascript:;">2000以上</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>排序：</dt>
+							<dd>
+								<a class="all slted" href="javascript:;">推荐房</a>
+								<a href="javascript:;">热门推荐</a>
+								<a href="javascript:;">星级从高到低</a>
+								<a href="javascript:;">星级从低到高</a>
+								<a href="javascript:;">价格从高到低</a>
+								<a href="javascript:;">价格从低到高</a>
+							</dd>
+						</dl>
+						
+						<dl class="stay">
+							<dt>设施：</dt>
+							<dd>
+								<label><input type="radio" value="1" class="rdostyle" name="stay" checked /><span>免费Wifi</span></label>
+								<label><input type="radio" value="1" class="rdostyle" name="stay" /><span>免费早餐</span></label>
+								<label><input type="radio" value="1" class="rdostyle" name="stay"  /><span>spa及健康中心</span></label>
+								<label><input type="radio" value="1" class="rdostyle" name="stay"  /><span>禁烟客房</span></label>
+								<label><input type="radio" value="1" class="rdostyle" name="stay"  /><span>游泳池</span></label>
+								<label><input type="radio" value="1" class="rdostyle" name="stay"  /><span>家庭间</span></label>
+								<label><input type="radio" value="1" class="rdostyle" name="stay"  /><span>允许携带宠物</span></label>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<script>
+					$(function(){
+						$(".filterfold").click(function(){
+							$(this).toggleClass("on");
+							$(this).next(".filter").slideToggle();
+						})
+					})
+				</script>
+			</div>
+		</section>
+		
+		<section class="rentlistWrap">
+			<div class="rent_tit">
+				<div class="w1200 clearfix"><p class="fr">搜索到 <em>22</em> 条符合条件产品</p><span>您可以根据付款当天汇率,以酒店当地的货币付费给酒店</span></div>
+			</div>
+			<div class="w1200">
+				<div class="rent_lists">
+					<div class="rent_list clearfix">
+						<div class="img-block"><a href="#"><img src="images/pic1.jpg" width="100%" /></a></div>
+						<div class="infos">
+							<div class="name"><a href="#">内罗毕东土酒店East Land Hotel Nairobi</a></div>
+							<div class="address"><i class="fa fa-map-marker"></i>LR1/119,Ring Road,Kilimani,Nairobi,Kenya,内罗毕商业区地区,内罗毕,00200,肯尼亚</div>
+							<div class="params wnone">
+								<span>宠物可入住</span>
+								<i class="fa fa-circle"></i>
+								<span>平价房</span>
+								
+							</div>
+							<div class="marks wnone"><span>泳池</span><span>早餐</span><span>WIFI</span></div>
+						</div>
+						<div class="priceDetail">
+							<div class="price">$<em>200</em><span>起</span></div>
+							<a class="btn btnljkf">Book Now</a>
+						</div>
+					</div>
+					<div class="rent_list clearfix">
+						<div class="img-block"><a href="#"><img src="images/pic2.jpg" width="100%" /></a></div>
+						<div class="infos">
+							<div class="name"><a href="#">内罗毕希尔顿酒店 Hilton Nairobi</a></div>
+							<div class="address"><i class="fa fa-map-marker"></i>Mama Ngina Street Po Box 30624,中央商业区地区,内罗毕</div>
+							<div class="params wnone">
+								<span>即刻入住</span>
+							</div>
+							<div class="marks wnone"><span>酒吧</span><span>房间服务</span><span>WIFI</span></div>
+						</div>
+						<div class="priceDetail">
+							<div class="price">$<em>1500</em><span>起</span></div>
+							<a class="btn btnljkf">Book Now</a>
+						</div>
+					</div>
+					<div class="rent_list clearfix">
+						<div class="img-block"><a href="#"><img src="images/pic3.jpg" width="100%" /></a></div>
+						<div class="infos">
+							<div class="name"><a href="#">内罗毕南畅酒店 Nanchang Hotel Nairobi</a></div>
+							<div class="address"><i class="fa fa-map-marker"></i>Westlands Road no,21 VIP Plaza,内罗毕,00100,肯尼亚</div>
+							<div class="params wnone">
+								<span>即刻入住</span>
+							</div>
+							<div class="marks wnone"><span>SPA</span><span>泳池</span><span>WIFI</span></div>
+						</div>
+						<div class="priceDetail">
+							<div class="price">$<em>350</em><span>起</span></div>
+							<a class="btn btnljkf">Book Now</a>
+						</div>
+					</div>
+					<div class="rent_list clearfix">
+						<div class="img-block"><a href="#"><img src="images/pic4.jpg" width="100%" /></a></div>
+						<div class="infos">
+							<div class="name"><a href="#">内罗毕皇冠假日酒店 Crowne Plaza Nairobi</a></div>
+							<div class="address"><i class="fa fa-map-marker"></i>Kenya Road,Upper Hill,po Box 25574,内罗毕,00100,肯尼亚</div>
+							<div class="params wnone">
+								<span>即刻入住</span>
+							</div>
+							<div class="marks wnone"><span>SPA</span><span>泳池</span><span>WIFI</span></div>
+						</div>
+						<div class="priceDetail">
+							<div class="price">$<em>500</em><span>起</span></div>
+							<a class="btn btnljkf">Book Now</a>
+						</div>
+					</div>
+					<div class="rent_list clearfix">
+						<div class="img-block"><a href="#"><img src="images/pic5.jpg" width="100%" /></a></div>
+						<div class="infos">
+							<div class="name"><a href="#">内罗毕萨洛瓦士丹利酒店 The Sarova Stanley</a></div>
+							<div class="address"><i class="fa fa-map-marker"></i>Corner of Kimathi Street and Kenyatta Avenue,中央商业区地</div>
+							<div class="params wnone">
+								<span>即刻入住</span>
+							</div>
+							<div class="marks wnone"><span>健身房</span><span>泳池</span><span>书桌</span></div>
+						</div>
+						<div class="priceDetail">
+							<div class="price">$<em>680</em><span>起</span></div>
+							<a class="btn btnljkf">Book Now</a>
+						</div>
+					</div>
+				</div>
+				<div class="viewmore">
+					<span>共44条记录</span>
+					<a href="#" class="last-page check">&lt;上一页</a>
+					<ul class="index-page">
+						<li class="moust">
+							<a href="javascript:;">1</a>
+						</li>
+						<li>
+							<a href="javascript:;">2</a>
+						</li>
+						<li>
+							<a href="javascript:;">3</a>
+						</li>
+						<li class="more-hv">
+							<a href="javascript:;">...</a>
+						</li>
+						<li>
+							<a href="javascript:;">5</a>
+						</li>
+					</ul>
+					<a href="#" class="next-page">下一页&gt;</a>
+				</div>
+			</div>
+		</section>
+		<section class="bottomWrap">
+		  <div class="w1200 clearfix">
+		    <div class="bottomWrap-l">
+		      <div class="blist">
+		        <p class="babout"><a href="#">关于我们</a><i></i><a href="#">联系我们</a><i></i><a href="#">如何下单</a><i></i><a href="#">相关问题</a><i></i><a href="#">帮助</a></p>
+		        <div class="ml10 address"><p>地址：武汉市江汉北路 九运大厦 D1002</p><p>工作时间：周一至周日9:00-21:00</p></div>
+		        <p class="ml10">Copyright&copy;2010-2017 www.youthunion.com All Right Reserved　   备案号：鄂ICP备15000984号-1</p>
+		      </div>
+		    </div>
+		    <div class="bottomWrap-r clearfix">
+		      <h5>Follow us</h5>
+		     <div class="spliter">
+		      	<a href="javascript:;" target="_blank"><i class="fa fa-weixin"></i></a>
+		      	<a href="javascript:;" target="_blank"><i class="fa fa-facebook"></i></a>
+		      	<a href="javascript:;" target="_blank"><i class="fa fa-twitter"></i></a>
+		      </div>
+		      
+		    </div>
+		  </div>
+		</section>	
+		
+		<!--siderbar-->
+     	<!--分享-->
+		<div id="share" class="clearfix">
+			<div class="li-share"><a href="javascript:;">分享</a></div>
+			
+			<div id="fxmag" class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1427097632560">
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="bds_qzone" data-cmd="qzone"><span id="qqkj"></span>空间</a>
+		        </div>
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="bds_tsina" data-cmd="tsina"><span id="snwb"></span> 微博</a>
+		        </div>
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="bds_renren" data-cmd="renren"><span id="rr"></span>人人</a>
+		        </div>
+		        <div class="fxicon">
+		            <a href="javascript:void(0)" class="popup_kaixin001" data-cmd="kaixin001"><span id="kx"></span>开心</a>
+		        </div>
+		        <div class="fxicon" style="border: 0px;">
+		            <a href="javascript:void(0)" class="bds_douban" data-cmd="douban"><span id="db"></span>豆瓣</a>
+		        </div>
+		    </div>
+		
+		</div>
+	<script>
+		$('.to-top').toTop();
+	</script>
+	<footer class="wwshow">
+	  <div class="w1200"> <a class="on" href="#"><i class="fa fa-home"></i>首页</a> <a href="javascript:;" onclick="showWindow('咨询电话','12345678901')"><i class="fa fa-phone"></i>咨询电话</a> <a href="#"><i class="fa fa-book"></i>租前须知</a> <a href="#"><i class="fa fa-user"></i>会员中心</a> </div>
+	</footer>		
+	</body>
+</html>
